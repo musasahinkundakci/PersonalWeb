@@ -1,0 +1,177 @@
+.section1 {
+  background-image: url('https://res.cloudinary.com/crakerss/image/upload/c_scale,q_auto:good,w_1440/v1502969988/CDF.jpg');
+  min-height: 45rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+.toBottom {
+  margin-bottom: 3rem;
+  color: #fff;
+  font-size: 2.5rem;
+  animation: bottomUp 1500ms infinite;
+  cursor: pointer;
+}
+.contact-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.7rem;
+  transition: all 0.3s ease-in-out;
+}
+.contact-links a:hover {
+  color: #000;
+}
+.contact-links {
+  margin-bottom: 12rem;
+  text-align: center;
+}
+#first {
+  text-align: center;
+  letter-spacing: 1px;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 6rem;
+  line-height: 0.75;
+  margin-bottom: 2rem;
+  opacity: 1;
+
+  margin-top: 15rem;
+}
+.paralax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section2 {
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  text-align: center;
+  height: 20rem;
+  padding: 0 10rem;
+}
+#second {
+  transform: rotate(270deg);
+  display: inline-block;
+  text-align: center;
+  letter-spacing: 1px;
+  fill: url('https://res.cloudinary.com/crakerss/image/upload/c_scale,q_auto:good,w_1440/v1502969988/CDF.jpg');
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 8rem;
+  line-height: 0.75;
+  margin: 25px;
+  opacity: 1;
+}
+#about-text {
+  font-size: 2rem;
+  display: inline-block;
+  width: 80%;
+}
+.section2 img {
+  width: 15rem;
+}
+.section3 {
+  background-image: url('https://cdn.pixabay.com/photo/2020/06/14/22/46/the-caucasus-5299607__480.jpg');
+  min-height: 9rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10rem;
+}
+.section3 h1 {
+  text-align: center;
+  letter-spacing: 1px;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 3rem;
+  line-height: 0.75;
+  opacity: 1;
+}
+@keyframes bottomUp {
+  0% {
+    transform: translateY(0rem);
+  }
+  50% {
+    transform: translateY(1rem);
+  }
+  100% {
+    transform: translateY(0rem);
+  }
+}
+.section4 {
+  padding: 0 25rem;
+  text-align: center;
+}
+.section4 img {
+  width: 6rem;
+  height: 6rem;
+  object-fit: contain;
+  margin-right: 2rem;
+}
+.footer {
+  background-image: url('https://res.cloudinary.com/crakerss/image/upload/c_scale,q_auto:good,w_1440/v1502969988/CDF.jpg');
+  padding: 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+.footer div {
+  font-size: 1.5rem;
+  color: #fff;
+}
+.footer a {
+  text-decoration: none;
+  color: #24a19c;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+@media only screen and (max-width: 704px) {
+  * {
+    font-size: 6px;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 704px) {
+  #about-text {
+    font-size: 1.4rem;
+  }
+  * {
+    font-size: 10px;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 866px) {
+  #about-text {
+    font-size: 1.6rem;
+  }
+  * {
+    font-size: 10px;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  * {
+    font-size: 12px;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  * {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+#navbar {
+  font-family: 'Raleway', sans-serif;
+  padding: 1rem 0rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #fff;
+}
+.nav-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.brand {
+  cursor: pointer;
+  color: #777;
+}
+.right-side {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.right-side span {
+  margin-right: 2rem;
+  cursor: pointer;
+  color: #777;
+  transition: all 0.3s ease-in-out;
+}
+.right-side span:hover {
+  color: #000;
+}
+
+/* .menu-button {
+  width: 40px;
+  height: 30px;
+  position: relative;
+
+  transform: rotate(0deg);
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+.menu-button span {
+  display: block;
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 0;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0deg);
+  transition: 0.25s ease-in-out;
+}
+.menu-button span:nth-child(1) {
+  top: 0px;
+}
+.menu-button span:nth-child(2) {
+  top: 12px;
+}
+.menu-button span:nth-child(3) {
+  top: 24px;
+}
+.menu-button.open span:nth-child(1) {
+  top: 18px;
+  transform: rotate(135deg);
+}
+.menu-button.open span:nth-child(2) {
+  left: -60px;
+  opacity: 0;
+}
+.menu-button.open span:nth-child(3) {
+  top: 18px;
+  transform: rotate(-135deg);
+} */
